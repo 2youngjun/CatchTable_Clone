@@ -9,8 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TabView {
+            MainView()
+                .tabItem{
+                    Image(systemName: "house")
+                }
+            
+            
+        }
+        .onAppear{
+            UITabBar.appearance().barTintColor = .white
+        }
+        .accentColor(.black)
     }
 }
 

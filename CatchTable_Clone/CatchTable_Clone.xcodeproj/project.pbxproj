@@ -14,6 +14,12 @@
 		8B4484AC28694E2100413954 /* CatchTable_CloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4484AB28694E2100413954 /* CatchTable_CloneTests.swift */; };
 		8B4484B628694E2100413954 /* CatchTable_CloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4484B528694E2100413954 /* CatchTable_CloneUITests.swift */; };
 		8B4484B828694E2100413954 /* CatchTable_CloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4484B728694E2100413954 /* CatchTable_CloneUITestsLaunchTests.swift */; };
+		8B4484C528694F5000413954 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4484C428694F5000413954 /* MainView.swift */; };
+		8B4484C72869511C00413954 /* GenericContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4484C62869511C00413954 /* GenericContent.swift */; };
+		8B4484C92869544300413954 /* SwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4484C82869544300413954 /* SwipeView.swift */; };
+		8B4484CD2869578200413954 /* TopContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4484CC2869578200413954 /* TopContent.swift */; };
+		8B4484D32869F01400413954 /* SwipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4484D22869F01400413954 /* SwipeViewController.swift */; };
+		8B4484D5286AA04000413954 /* SwipeControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4484D4286AA04000413954 /* SwipeControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		8B4484B128694E2100413954 /* CatchTable_CloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatchTable_CloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B4484B528694E2100413954 /* CatchTable_CloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchTable_CloneUITests.swift; sourceTree = "<group>"; };
 		8B4484B728694E2100413954 /* CatchTable_CloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchTable_CloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8B4484C428694F5000413954 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		8B4484C62869511C00413954 /* GenericContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericContent.swift; sourceTree = "<group>"; };
+		8B4484C82869544300413954 /* SwipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeView.swift; sourceTree = "<group>"; };
+		8B4484CC2869578200413954 /* TopContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopContent.swift; sourceTree = "<group>"; };
+		8B4484D22869F01400413954 /* SwipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeViewController.swift; sourceTree = "<group>"; };
+		8B4484D4286AA04000413954 /* SwipeControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +108,9 @@
 			children = (
 				8B44849A28694E2000413954 /* CatchTable_CloneApp.swift */,
 				8B44849C28694E2000413954 /* ContentView.swift */,
+				8B4484C428694F5000413954 /* MainView.swift */,
+				8B4484CB2869576200413954 /* TopSwipe */,
+				8B4484D6286B237800413954 /* Data */,
 				8B44849E28694E2100413954 /* Assets.xcassets */,
 				8B4484A028694E2100413954 /* Preview Content */,
 			);
@@ -125,6 +140,25 @@
 				8B4484B728694E2100413954 /* CatchTable_CloneUITestsLaunchTests.swift */,
 			);
 			path = CatchTable_CloneUITests;
+			sourceTree = "<group>";
+		};
+		8B4484CB2869576200413954 /* TopSwipe */ = {
+			isa = PBXGroup;
+			children = (
+				8B4484C82869544300413954 /* SwipeView.swift */,
+				8B4484D22869F01400413954 /* SwipeViewController.swift */,
+				8B4484D4286AA04000413954 /* SwipeControl.swift */,
+				8B4484CC2869578200413954 /* TopContent.swift */,
+			);
+			path = TopSwipe;
+			sourceTree = "<group>";
+		};
+		8B4484D6286B237800413954 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8B4484C62869511C00413954 /* GenericContent.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +292,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B44849D28694E2000413954 /* ContentView.swift in Sources */,
+				8B4484CD2869578200413954 /* TopContent.swift in Sources */,
+				8B4484C528694F5000413954 /* MainView.swift in Sources */,
+				8B4484C92869544300413954 /* SwipeView.swift in Sources */,
 				8B44849B28694E2000413954 /* CatchTable_CloneApp.swift in Sources */,
+				8B4484D32869F01400413954 /* SwipeViewController.swift in Sources */,
+				8B4484D5286AA04000413954 /* SwipeControl.swift in Sources */,
+				8B4484C72869511C00413954 /* GenericContent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
