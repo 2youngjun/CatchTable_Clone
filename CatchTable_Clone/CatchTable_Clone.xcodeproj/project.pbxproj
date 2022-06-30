@@ -20,6 +20,9 @@
 		8B4484CD2869578200413954 /* TopContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4484CC2869578200413954 /* TopContent.swift */; };
 		8B4484D32869F01400413954 /* SwipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4484D22869F01400413954 /* SwipeViewController.swift */; };
 		8B4484D5286AA04000413954 /* SwipeControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4484D4286AA04000413954 /* SwipeControl.swift */; };
+		8B4484D8286B256C00413954 /* MyDiningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4484D7286B256C00413954 /* MyDiningView.swift */; };
+		8B4484DB286C98A000413954 /* SelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4484DA286C98A000413954 /* SelectView.swift */; };
+		8B4484DD286C9CA200413954 /* ReservationOpenAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4484DC286C9CA200413954 /* ReservationOpenAlert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,9 @@
 		8B4484CC2869578200413954 /* TopContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopContent.swift; sourceTree = "<group>"; };
 		8B4484D22869F01400413954 /* SwipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeViewController.swift; sourceTree = "<group>"; };
 		8B4484D4286AA04000413954 /* SwipeControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeControl.swift; sourceTree = "<group>"; };
+		8B4484D7286B256C00413954 /* MyDiningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDiningView.swift; sourceTree = "<group>"; };
+		8B4484DA286C98A000413954 /* SelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectView.swift; sourceTree = "<group>"; };
+		8B4484DC286C9CA200413954 /* ReservationOpenAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationOpenAlert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +115,8 @@
 				8B44849A28694E2000413954 /* CatchTable_CloneApp.swift */,
 				8B44849C28694E2000413954 /* ContentView.swift */,
 				8B4484C428694F5000413954 /* MainView.swift */,
-				8B4484CB2869576200413954 /* TopSwipe */,
+				8B4484D9286C97B500413954 /* MyDiningView */,
+				8B4484CB2869576200413954 /* Swipe */,
 				8B4484D6286B237800413954 /* Data */,
 				8B44849E28694E2100413954 /* Assets.xcassets */,
 				8B4484A028694E2100413954 /* Preview Content */,
@@ -142,7 +149,7 @@
 			path = CatchTable_CloneUITests;
 			sourceTree = "<group>";
 		};
-		8B4484CB2869576200413954 /* TopSwipe */ = {
+		8B4484CB2869576200413954 /* Swipe */ = {
 			isa = PBXGroup;
 			children = (
 				8B4484C82869544300413954 /* SwipeView.swift */,
@@ -150,7 +157,7 @@
 				8B4484D4286AA04000413954 /* SwipeControl.swift */,
 				8B4484CC2869578200413954 /* TopContent.swift */,
 			);
-			path = TopSwipe;
+			path = Swipe;
 			sourceTree = "<group>";
 		};
 		8B4484D6286B237800413954 /* Data */ = {
@@ -159,6 +166,16 @@
 				8B4484C62869511C00413954 /* GenericContent.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		8B4484D9286C97B500413954 /* MyDiningView */ = {
+			isa = PBXGroup;
+			children = (
+				8B4484D7286B256C00413954 /* MyDiningView.swift */,
+				8B4484DC286C9CA200413954 /* ReservationOpenAlert.swift */,
+				8B4484DA286C98A000413954 /* SelectView.swift */,
+			);
+			path = MyDiningView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,14 +308,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B4484DB286C98A000413954 /* SelectView.swift in Sources */,
 				8B44849D28694E2000413954 /* ContentView.swift in Sources */,
 				8B4484CD2869578200413954 /* TopContent.swift in Sources */,
+				8B4484D8286B256C00413954 /* MyDiningView.swift in Sources */,
 				8B4484C528694F5000413954 /* MainView.swift in Sources */,
 				8B4484C92869544300413954 /* SwipeView.swift in Sources */,
 				8B44849B28694E2000413954 /* CatchTable_CloneApp.swift in Sources */,
 				8B4484D32869F01400413954 /* SwipeViewController.swift in Sources */,
 				8B4484D5286AA04000413954 /* SwipeControl.swift in Sources */,
 				8B4484C72869511C00413954 /* GenericContent.swift in Sources */,
+				8B4484DD286C9CA200413954 /* ReservationOpenAlert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

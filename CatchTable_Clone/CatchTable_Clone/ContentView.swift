@@ -15,7 +15,10 @@ struct ContentView: View {
                     Image(systemName: "house")
                 }
             
-            
+            MyDiningView()
+                .tabItem{
+                    Image(systemName: "calendar")
+                }
         }
         .onAppear{
             UITabBar.appearance().barTintColor = .white
