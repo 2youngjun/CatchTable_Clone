@@ -23,6 +23,7 @@
 		8B4484D8286B256C00413954 /* MyDiningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4484D7286B256C00413954 /* MyDiningView.swift */; };
 		8B4484DB286C98A000413954 /* SelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4484DA286C98A000413954 /* SelectView.swift */; };
 		8B4484DD286C9CA200413954 /* ReservationOpenAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4484DC286C9CA200413954 /* ReservationOpenAlert.swift */; };
+		8B44851F2871916100413954 /* SwipeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B44851E2871916100413954 /* SwipeData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		8B4484D7286B256C00413954 /* MyDiningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDiningView.swift; sourceTree = "<group>"; };
 		8B4484DA286C98A000413954 /* SelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectView.swift; sourceTree = "<group>"; };
 		8B4484DC286C9CA200413954 /* ReservationOpenAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationOpenAlert.swift; sourceTree = "<group>"; };
+		8B44851E2871916100413954 /* SwipeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 				8B4484D22869F01400413954 /* SwipeViewController.swift */,
 				8B4484D4286AA04000413954 /* SwipeControl.swift */,
 				8B4484CC2869578200413954 /* TopContent.swift */,
+				8B44851E2871916100413954 /* SwipeData.swift */,
 			);
 			path = Swipe;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 				8B4484C92869544300413954 /* SwipeView.swift in Sources */,
 				8B44849B28694E2000413954 /* CatchTable_CloneApp.swift in Sources */,
 				8B4484D32869F01400413954 /* SwipeViewController.swift in Sources */,
+				8B44851F2871916100413954 /* SwipeData.swift in Sources */,
 				8B4484D5286AA04000413954 /* SwipeControl.swift in Sources */,
 				8B4484C72869511C00413954 /* GenericContent.swift in Sources */,
 				8B4484DD286C9CA200413954 /* ReservationOpenAlert.swift in Sources */,

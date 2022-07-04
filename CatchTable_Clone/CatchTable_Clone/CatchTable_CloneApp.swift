@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct CatchTable_CloneApp: App {
+    @StateObject private var swipeData = SwipeData()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(swipeData)
         }
     }
 }

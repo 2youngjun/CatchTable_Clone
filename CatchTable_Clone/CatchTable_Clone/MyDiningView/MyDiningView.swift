@@ -9,7 +9,6 @@ import SwiftUI
 
 struct MyDiningView: View {
     @State private var isReservation = true
-    @State private var isAlert = false
     
     var body: some View {
         VStack{
@@ -26,7 +25,6 @@ struct MyDiningView: View {
                 HStack{
                     Button(action: {
                         isReservation = true
-                        isAlert = false
                     }){
                         VStack(spacing: 10){
                             HStack{
@@ -43,32 +41,31 @@ struct MyDiningView: View {
                     }
                     
                     Button(action: {
-                        isAlert = true
                         isReservation = false
                     }){
                         VStack(spacing: 10){
                             HStack{
                                 Spacer()
                                 Text("나의 알림")
-                                    .foregroundColor(self.isAlert ? Color.black : Color.gray)
+                                    .foregroundColor(self.isReservation ? Color.gray : Color.black)
                                     .font(.system(size: 16))
-                                    .fontWeight(self.isAlert ? .bold : .regular)
+                                    .fontWeight(self.isReservation ? .regular : .bold)
                                 Spacer()
-                            }.padding(.bottom, self.isAlert ? 0 : 12)
+                            }.padding(.bottom, self.isReservation ? 12 : 0)
                             
                             
-                            self.isAlert ? Rectangle().frame(width: geometry.size.width * 0.5, height: 2) : nil
+                            self.isReservation ? nil : Rectangle().frame(width: geometry.size.width * 0.5, height: 2)
                         }
                     }
                 }
             }
-            
             
             ReservationOpenAlert()
             
             SelectView()
             
             Spacer()
+            
         }
         .padding(.vertical, 20)
     }
